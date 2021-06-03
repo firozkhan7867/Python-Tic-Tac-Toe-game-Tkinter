@@ -18,7 +18,7 @@ class game():
 
         self.player_2_lb = Label(
             self.f1, bg="#abfcaf", fg="red", text="Player_2", font=('Bold', 20))
-        self.player_2_lb.place(x=330, y=50)
+        self.player_2_lb.place(x=300, y=50)
 
         self.f2 = Frame(self.f1, bg="light green",
                         relief=SUNKEN, borderwidth=2)
@@ -39,7 +39,7 @@ class game():
                 but1.config(bg="plum")
                 self.dic[vr] = 1
             elif self.count % 2 == 1:
-                but1.config(text="Y")
+                but1.config(text="O")
                 but1.config(bg="khaki")
                 self.count += 1
                 self.dic[vr] = 0
@@ -54,7 +54,7 @@ class game():
                 but2.config(bg="plum")
                 self.dic[vr] = 1
             elif self.count % 2 == 1:
-                but2.config(text="Y")
+                but2.config(text="O")
                 but2.config(bg="khaki")
                 self.count += 1
                 self.dic[vr] = 0
@@ -69,7 +69,7 @@ class game():
                 but3.config(bg="plum")
                 self.dic[vr] = 1
             elif self.count % 2 == 1:
-                but3.config(text="Y")
+                but3.config(text="O")
                 but3.config(bg="khaki")
                 self.count += 1
                 self.dic[vr] = 0
@@ -84,7 +84,7 @@ class game():
                 but4.config(bg="plum")
                 self.dic[vr] = 1
             elif self.count % 2 == 1:
-                but4.config(text="Y")
+                but4.config(text="O")
                 but4.config(bg="khaki")
                 self.count += 1
                 self.dic[vr] = 0
@@ -99,7 +99,7 @@ class game():
                 but5.config(bg="plum")
                 self.dic[vr] = 1
             elif self.count % 2 == 1:
-                but5.config(text="Y")
+                but5.config(text="O")
                 but5.config(bg="khaki")
                 self.count += 1
                 self.dic[vr] = 0
@@ -114,7 +114,7 @@ class game():
                 but6.config(bg="plum")
                 self.dic[vr] = 1
             elif self.count % 2 == 1:
-                but6.config(text="Y")
+                but6.config(text="O")
                 but6.config(bg="khaki")
                 self.count += 1
                 self.dic[vr] = 0
@@ -129,7 +129,7 @@ class game():
                 but7.config(bg="plum")
                 self.dic[vr] = 1
             elif self.count % 2 == 1:
-                but7.config(text="Y")
+                but7.config(text="O")
                 but7.config(bg="khaki")
                 self.count += 1
                 self.dic[vr] = 0
@@ -144,7 +144,7 @@ class game():
                 but8.config(bg="plum")
                 self.dic[vr] = 1
             elif self.count % 2 == 1:
-                but8.config(text="Y")
+                but8.config(text="O")
                 but8.config(bg="khaki")
                 self.count += 1
                 self.dic[vr] = 0
@@ -159,7 +159,7 @@ class game():
                 but9.config(bg="plum")
                 self.dic[vr] = 1
             elif self.count % 2 == 1:
-                but9.config(text="Y")
+                but9.config(text="O")
                 but9.config(bg="khaki")
                 self.count += 1
                 self.dic[vr] = 0
